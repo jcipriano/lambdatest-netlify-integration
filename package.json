@@ -1,0 +1,25 @@
+{
+  "name": "lambdatest-poc",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "netlify-integration build -a",
+    "dev": "netlify-integration dev -a",
+    "preview": "netlify-integration preview"
+  },
+  "dependencies": {
+    "@netlify/sdk": "^1.9.5",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "playwright": "^1.39.0",
+    "puppeteer": "^21.5.0",
+    "typescript": "^5.2.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.7",
+    "@types/uuid": "^9.0.6",
+    "cypress": "^13.4.0"
+  }
+}
