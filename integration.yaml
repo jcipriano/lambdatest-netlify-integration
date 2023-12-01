@@ -1,7 +1,0 @@
-# yaml-language-server: $schema=https://sdk.netlify.com/config-schema.json
-config:
-  slug: lambdatest-poc
-  name: lambdatest-poc
-  description: AI-Powered
-  integrationLevel: site
-  
