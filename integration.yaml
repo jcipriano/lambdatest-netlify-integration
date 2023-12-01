@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://sdk.netlify.com/config-schema.json
+config:
+  name: Lambdatest Test
+  description: Testing Lambdatest SDK integration
+  slug: jc-lambdatest-integration-test
+  scopes:
+    site:
+      - read
+      - write
+    env:
+      - read
+      - write
+    user:
+      - read
+      - write
+  integrationLevel: "site"
